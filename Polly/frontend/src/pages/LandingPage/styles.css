@@ -1,0 +1,91 @@
+.content-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--deep-yellow);
+}
+
+.content-1 img{
+    width: 30%;
+}
+
+.content-1 .text{
+    font-family: 'Fredoka one', cursive;
+    width: 50%;
+    text-align: center;
+    color: var(--deep-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-1 .text h1{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.content-1 .text h3{
+    font-weight: normal;
+    font-size: 20px;   
+    margin: 20px;
+}
+.content-1 .text h3 strong{
+    display: block;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.content-1 .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-1 .links a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 20px;
+    border: 2px solid var(--deep-blue);
+    color: var(--deep-blue);
+    border-radius: 32px;
+    transition: 400ms;
+}
+
+.content-1 .links a:hover{
+    background-color: var(--deep-blue);
+    border: 2px solid var(--deep-blue);
+    color: var(--snow);
+}
+
+.content-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.content-2 .text{
+    font-family: 'Fredoka one', cursive;
+    font-weight: normal;
+    color: var(--deep-blue);
+    text-align: center;
+}
+
+.content-2 .text h3{
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: var(--deep-yellow);
+    text-shadow: 2px 2px 2px var(--deep-blue);
+}
+
+.content-2 .text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.content-2 img{
+    width: 30%;
+}
+

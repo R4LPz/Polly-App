@@ -1,0 +1,55 @@
+.menu-logged{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px 15px 60px;
+}
+
+.brand{
+    color: var(--deep-blue);
+    display: flex;
+    align-items: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+.search{
+    background-color: var(--snow);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-text, .search-button{
+    transition: 0.8s;
+    outline: none;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+.search-text{
+    color: var(--deep-blue);
+    width: 0;
+    float: left;
+}
+
+.search-button{
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--yellow);
+}
+
+.search-button:active{
+    background-color: rgba(255, 255, 255, 5);
+}
+
+.search:hover > .search-text{
+    width: 200px;
+    padding: 5px;
+}
+
+.search:hover > .search-button{
+    transform: rotate(360deg);
+}

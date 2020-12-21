@@ -1,0 +1,133 @@
+.container-instituition, .container-animal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.form-register{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-register input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 5px 0px;
+    background: var(--snow);
+    color: var(--deep-blue);
+
+}
+
+.endereco, .localizacao, .contato, .identificacao-animal, .custo-animal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.endereco #endereco{
+    width: 78%;
+}
+
+.endereco #numero{
+    width: 20%;
+}
+
+#raca,#especie, #idade, #custos{
+    width: 49%;
+}
+
+.localizacao select, .identificacao-animal select{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 5px 0px;
+    background: var(--snow);
+    color: var(--deep-blue);
+    font-family: 'Roboto', sans-serif;
+}
+
+.identificacao-animal select{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 5px 0px;
+    background: var(--snow);
+    color: var(--deep-blue);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.localizacao #cidade, .localizacao #estado{
+    width: 49%;
+}
+
+.contato #telefone{
+    width: 29%;
+}
+
+.contato #email{
+    width: 69%;
+}
+
+.form-register textarea{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: var(--snow);
+    color: var(--deep-blue);
+    max-width: 95%;
+    min-width: 95%;
+    max-height: 200px;
+    min-height: 24px;
+    margin-top: 5px;
+}
+
+.form-register button{
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 26px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    background-color: var(--deep-blue);
+    color: var(--snow);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+label#imagem {
+    margin-bottom: 5px;
+    border: 1px dashed var(--deep-blue);
+    border-radius: 10px;
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#imagem input {
+    display: none;
+}
+
+label#imagem.has-image {
+    border: 0;
+}
+
+label#imagem.has-image img {
+    display: none;
+ }

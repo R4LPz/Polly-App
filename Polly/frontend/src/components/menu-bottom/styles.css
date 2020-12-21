@@ -1,0 +1,75 @@
+.menu-bottom{
+    background-color: var(--deep-yellow);
+    position: fixed;
+    bottom: 10px;
+    left: 25%;
+    width: 50%;
+    height: 6%;
+    border-radius: 20px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 4px black;
+}
+
+.icons-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons-container img{
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.icons-container .selected{
+    background-color: var(--yellow);
+    box-shadow: 0px 2px 4px black;
+}
+
+.add-hamburguer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburguer-option{
+    position: absolute;
+    background-color: var(--yellow);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
+    box-shadow: 0px 2px 4px black;
+}
+
+.hamburguer-button{
+    position: absolute;
+    transition: 400ms;
+}
+
+.add-hamburguer.active .hamburguer-button{
+    transform: rotate(225deg);
+}
+
+.add-hamburguer.active .hamburguer-option{
+    transform: translate(30px,-50px);
+    opacity: 1;
+}
+
+.add-hamburguer.active .hamburguer-option:nth-child(2){
+    transform: translate(-30px,-50px);
+    opacity: 1;
+}
