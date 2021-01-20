@@ -1,13 +1,19 @@
 # 🐶 Polly App 🐱
 ***Polly*** é um protótipo de **Sistema web** desenvolvido como trabalho final do curso de Tecnologias Web e Mobile.
 
+![Landing page da aplicação](https://github.com/RafaelLucasP/Polly-App/blob/main/README-images/LandingPage.jpeg)
 
 ## 🔭 Objetivos
 
 Polly tem como objetivo disponibilizar uma interface limpa e minimalista e trazer uma aplicação que cadastra e conecta pessoas e animais necessitados.
-![Landing page da aplicação]()
+
+![Landing page da aplicação](https://github.com/RafaelLucasP/Polly-App/blob/main/README-images/Login.jpeg)
 
 Com um simples cadastro, você poderá cadastrar animais e instituições para possam ser encontrados por pessoas dispostas a ajudar em seus custos ou a adota-los.
+
+![Página de cadastro de animal](https://github.com/RafaelLucasP/Polly-App/blob/main/README-images/Animal-Register.jpeg)
+
+![Landing page da aplicação](https://github.com/RafaelLucasP/Polly-App/blob/main/README-images/Dashboard.jpeg)
 
 ## 💻 Instalação
 
