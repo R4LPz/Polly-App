@@ -11,7 +11,7 @@ Polly tem como objetivo disponibilizar uma interface limpa e minimalista e traze
 
 Com um simples cadastro, você poderá cadastrar animais e instituições para possam ser encontrados por pessoas dispostas a ajudar em seus custos ou a adota-los.
 
-![Página de cadastro de animal](https://github.com/RafaelLucasP/Polly-App/blob/main/README-images/Animal-Register.jpeg)
+![Página de cadastro de animal](https://github.com/RafaelLucasP/Polly-App/blob/main/README-images/AnimalRegister.jpeg)
 
 ![Landing page da aplicação](https://github.com/RafaelLucasP/Polly-App/blob/main/README-images/Dashboard.jpeg)
 
