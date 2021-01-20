@@ -5,6 +5,7 @@
 ## 🔭 Objetivos
 
 Polly tem como objetivo disponibilizar uma interface limpa e minimalista e trazer uma aplicação que cadastra e conecta pessoas e animais necessitados.
+![Landing page da aplicação]()
 
 Com um simples cadastro, você poderá cadastrar animais e instituições para possam ser encontrados por pessoas dispostas a ajudar em seus custos ou a adota-los.
 
